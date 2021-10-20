@@ -34,18 +34,14 @@
 
 * {
   scrollbar-width: auto;
-  scrollbar-color: #999999 #ffffff;
+  scrollbar-color: #999999;
 }
-
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
 }
-
 *::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: transparent;
 }
-
 *::-webkit-scrollbar-thumb {
   background-color: #999999;
   border-radius: 10px;
