@@ -1,0 +1,46 @@
+.largeWidget{
+    width: 100%;
+    margin-top: 14px;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--container-border-radius);
+}
+
+.largeWidgetHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.largeWidgetTitle{
+    display: flex;
+    flex-direction: column;
+}
+.largeWidgetButtonMore{
+    color: var(--main-color);
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 8px;
+}
+.largeWidgetButtonMore:hover{
+    background-color: var(--icon-color-main);
+    transition: background-color .2s;
+    color: var(--white);
+}
+.largeWidgetTitleText{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.largeWidgetDesc{
+    color: var(--icon-color-main);
+    font-size: .9rem;
+    max-width: 75%;
+}
+
+
+.itemWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px 64px;
+    margin-top: 18px;
+}

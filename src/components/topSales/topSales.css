@@ -1,0 +1,103 @@
+.topSales{
+    flex: 1.75;
+    height: calc(100vh - 72px);
+}
+
+.topSalesFilterWrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.filterLabel{
+    color: var(--icon-color-main);
+
+}
+.filterSettingsIcon{
+    font-size: 1.5rem;
+    color: var(--icon-color-main);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+}
+.filterSettingsIcon:hover{
+    background-color: var(--second-color);
+    color: var(--white);
+    transition: background-color .2s, color .2s;
+}
+
+.filterSelect{
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+    outline: 1px solid var(--icon-color-main);
+    cursor: pointer;
+}
+
+
+
+.topSalesList{
+    max-height: calc(100vh - 128px);
+    margin-top: 18px;
+    padding: 14px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,248,249,1) 100%);
+    overflow-y: scroll;
+    border-radius: var(--container-border-radius);
+}
+.topSalesListTitleWrapper{
+    margin-bottom: 10px;
+}
+.topSalesListWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.topSalesListTitle{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.topSalesListItemTitle{
+    font-weight: 600;
+    color: var(--main-color);
+}
+.topSalesListValue, .topSalesListItemValue{
+    color: var(--icon-color-main);
+    font-size: .85rem;
+}
+.topSalesListPercent, .topSalesListItemPercent{
+    color: var(--icon-color-main);
+    font-size: .85rem;
+}
+
+.topSalesListItem{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.topSalesListItemWrapper{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.topSalesListItemPicWrapper{
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    transform: rotate(-45deg);
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+.topSalesListItemPic{
+    width: 100%;
+    transform: rotate(45deg);
+}
+.topSalesListTitleWrapper{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}

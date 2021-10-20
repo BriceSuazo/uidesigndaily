@@ -1,0 +1,30 @@
+.smallWidget{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 14px;
+    cursor: pointer;
+    border-radius: var(--container-border-radius);
+}
+
+.smWidgetHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.smWidgetTitle{
+    color: var(--icon-color-main);
+}
+.smWidgetPercent{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.smWidgetPercent.up{
+    color: var(--fifth-color);
+}
+.smWidgetPercent.down{
+    color: var(--second-color);
+}
+.smWidgetValue{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--main-color);
+}

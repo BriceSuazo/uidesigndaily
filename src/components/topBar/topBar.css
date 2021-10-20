@@ -1,0 +1,40 @@
+.topBar{
+    width: 100%;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 24px;
+}
+
+.topBarSearchIcon, .topBarNotificationIcon{
+    color: var(--icon-color-main);
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+}
+.topBarSearchIcon:hover, .topBarNotificationIcon:hover{
+    background-color: var(--icon-color-main);
+    transition: background-color .2s;
+    color: var(--white);
+}
+.topBarProfilePic{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 4px solid var(--white);
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.24);
+    cursor: pointer;
+    margin-left: 8px;
+}
+.topBarProfilePic:hover{
+    outline: 4px solid var(--icon-color-main);
+    transition: outline .1s;
+}
